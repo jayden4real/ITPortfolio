@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="Vendors/CSS/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/CSS/grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/CSS/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="Resources/CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jayden's Portfolio - Programming JavaScript</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class ="container">
+                <ul class="main-nav">
+                    <h1>Jayden Serra</h1>
+                    <li><a href="Jayden's Portfolio.html#aboutme">About Me</a></li>
+                    <li><a href="Jayden's Portfolio.html#myprojects">My Projects</a></li>
+                    <li><a href="Jayden's Portfolio.html#mycertificates">My Certificates</a></li>
+                    <li><a href="SerraJ - Resume.pdf">My Resume</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Game Showcase Section -->
+    <section id="gameshowcase" class="section">
+        <h2>My JavaScript Game</h2>
+        <p>Below is a playable demo of a game I made using JavaScript. This is the first ever game I created. Feel free to play and enjoy!</p>
+
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+
+        <h3>Game Instructions</h3>
+        <ul>
+            <li>Click to "kill" ninjas.</li>
+            <li>If there are more than 10 ninjas alive at once, you lose.</li>
+        </ul>
+
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Jayden Serra. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="game.js"></script>
+</body>
+</html>
